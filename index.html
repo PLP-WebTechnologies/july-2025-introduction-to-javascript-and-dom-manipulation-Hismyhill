@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Fundamentals Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Personal Profile & To-Do List</h1>
+    </header>
+    <main>
+      <section id="profile-section">
+        <h2>About Me</h2>
+        <p>
+          <strong>Name:</strong> <span id="profileName">Ismaeel Owolabi</span>
+        </p>
+        <p>
+          <strong>Favorite Hobby:</strong>
+          <span id="profileHobby">Reading</span>
+        </p>
+        <button id="editProfileBtn">Edit Profile</button>
+      </section>
+      <section id="age-section">
+        <h2>Check Your Age</h2>
+        <label for="ageInput">Enter your age:</label>
+        <input type="number" id="ageInput" min="0" placeholder="e.g. 18" />
+        <button id="checkAgeBtn">Check</button>
+        <p id="ageResult"></p>
+      </section>
+      <section id="todo-section">
+        <h2>My To-Do List</h2>
+        <input type="text" id="todoInput" placeholder="Add a new task..." />
+        <button id="addTodoBtn">Add Task</button>
+        <ul id="todoList"></ul>
+      </section>
+      <section id="theme-section">
+        <h2>Theme</h2>
+        <button id="toggleThemeBtn">Toggle Dark Theme</button>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Jane Doe. Beginner JavaScript Project.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
